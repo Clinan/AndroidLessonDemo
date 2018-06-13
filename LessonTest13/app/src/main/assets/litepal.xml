@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="test" />
+
+    <version value="1" />
+
+    <list>
+        <mapping class="cn.edu.hdu.lessontest13.db.beam.Staff" ></mapping>
+    </list>
+</litepal>

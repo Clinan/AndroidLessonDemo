@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.edu.hdu.lessiontest5.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/endColor"
+                android:gravity="bottom"
+                android:orientation="vertical">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/profile_image"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="50dp"
+                    android:src="@drawable/qq" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/profile_image"
+
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/account"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_margin="2dp"
+                        android:background="@drawable/login_et_bg"
+                        android:hint="@string/et_account_hint"
+                        android:inputType="number"
+                        android:padding="5dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@color/devide_line" />
+
+                    <EditText
+                        android:id="@+id/password"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_margin="2dp"
+                        android:background="@drawable/login_et_bg"
+                        android:hint="@string/et_password_hint"
+                        android:inputType="textPassword"
+                        android:padding="5dp" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:background="@drawable/shape_gradient"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/login"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/login_btn"
+                    android:text="登录"
+                    android:onClick="login_btn"
+                    android:textColor="@android:color/white" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:text="无法登陆？"
+            android:textColor="@color/loginButton" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+
+            android:layout_alignParentEnd="true"
+            android:text="新用户"
+            android:textColor="@color/loginButton" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

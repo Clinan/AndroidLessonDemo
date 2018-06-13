@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hdu.edu.cn.lessiontest6.Main2Activity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/n1_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="n1"
+        android:inputType="number"/>
+    <EditText
+        android:id="@+id/n2_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="n2"
+        android:inputType="number"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="compareBtnOnclick"
+        android:text="比较两个数"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="nextPageBtnOnclick"
+        android:layout_marginTop="200dp"
+        android:text="下一页" />
+
+</LinearLayout>
+</android.support.constraint.ConstraintLayout>

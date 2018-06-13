@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LessionTest5</string>
+    <string name="et_account_hint">QQ号</string>
+    <string name="et_password_hint">密码</string>
+</resources>

@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/option_create_database"
+        android:title="连接数据库"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/add_data"
+        android:title="添加"
+        android:icon="@android:drawable/ic_input_add"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/refresh"
+        android:title="刷新"
+        android:icon="@android:drawable/ic_menu_rotate"
+        app:showAsAction="ifRoom" />
+
+</menu>

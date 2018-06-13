@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parentLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--<com.evrencoskun.tableview.TableView-->
+    <!--android:id="@+id/content_container"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+
+    <!--app:column_header_height="@dimen/cell_height"-->
+    <!--app:row_header_width="@dimen/row_header_width"-->
+    <!--app:selected_color="@color/md_selected_background_color"-->
+    <!--app:shadow_color="@color/table_view_default_shadow_background_color"-->
+    <!--app:unselected_color="@color/table_view_default_unselected_background_color" />-->
+
+</LinearLayout>
