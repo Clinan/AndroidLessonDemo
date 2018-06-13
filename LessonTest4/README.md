@@ -1,0 +1,6 @@
+![Image text](https://github.com/Clinan/AndroidLessonDemo/blob/master/LessonTest4/screenshot/q1.png)
+![Image text](https://github.com/Clinan/AndroidLessonDemo/blob/master/LessonTest4/screenshot/q2-1.png)
+![Image text](https://github.com/Clinan/AndroidLessonDemo/blob/master/LessonTest4/screenshot/q2-2.png)
+![Image text](https://github.com/Clinan/AndroidLessonDemo/blob/master/LessonTest4/screenshot/q3.png)
+![Image text](https://github.com/Clinan/AndroidLessonDemo/blob/master/LessonTest4/screenshot/q4-1.png)
+![Image text](https://github.com/Clinan/AndroidLessonDemo/blob/master/LessonTest4/screenshot/q4-2.png)
